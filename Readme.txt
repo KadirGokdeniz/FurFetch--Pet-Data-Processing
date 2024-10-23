@@ -1,17 +1,30 @@
 # Petlebi Web Scraping Project
-This project is designed to scrape animal product information from the Petlebi website using web scraping techniques.
+Welcome to the **Petlebi Web Scraping Project**! This project allows you to gather animal product information from the Petlebi website using effective web scraping techniques.
 
-## Files
-- **petlebi_scrapy.py**: This Python file contains the main code used to scrape product information from the Petlebi website.
-- **import_products.py**: This Python file establishes a connection with a MySQL database and creates a new database and table to import data from JSON format.
-- **petlebi_create.sql**: This SQL file contains the necessary commands to create the required database and table for the project.
+## Table of Contents
+- [Project Files](#project-files)
+- [How to Use](#how-to-use)
+- [Additional Information](#additional-information)
 
-## Usage
-1. Run the `petlebi_scrapy.py` file to scrape product information from the Petlebi website and save it to the `petlebi_products.json` file.
-2. Execute the `import_products.py` file to:
-   - Create a new table in the MySQL database using the SQL commands from the `petlebi_create.sql` file.
-   - Import data from the JSON file into this table.
+## Project Files
+Here are the key files included in this project:
+- **`petlebi_scrapy.py`**: The main Python script that scrapes product information from the Petlebi website.
+- **`import_products.py`**: A Python script that connects to a MySQL database, creating a new database and table for importing data from JSON format.
+- **`petlebi_create.sql`**: SQL commands needed to set up the required database and table structure for this project.
+
+## How to Use
+Follow these simple steps to get started:
+
+1. **Scrape Product Information**:
+   - Run the `petlebi_scrapy.py` file. This will scrape product information from the Petlebi website and save it to `petlebi_products.json`.
+
+2. **Import Data into MySQL**:
+   - Execute the `import_products.py` file to:
+     - Create a new table in your MySQL database using the commands from `petlebi_create.sql`.
+     - Import the scraped data from the `petlebi_products.json` file into the newly created table.
 
 ## Additional Information
-- The project can scrape product information from a total of **221 different pages**.
-- If you wish to add information for a new product, execute the SQL commands from the `petlebi_create.sql` file.
+- This project is capable of scraping product information from **221 different pages**.
+- To add information for a new product, simply run the SQL commands from the `petlebi_create.sql` file.
+
+Feel free to explore the code, and happy scraping!
