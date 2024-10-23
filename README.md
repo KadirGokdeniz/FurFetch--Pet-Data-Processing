@@ -2,8 +2,8 @@
 Welcome to the **Petlebi Web Scraping Project**! This project allows you to gather animal product information from the Petlebi website using effective web scraping techniques. The program searches for all products on the Petlebi website `https://www.petlebi.com/?gad_source=1&gclid=Cj0KCQjwveK4BhD4ARIsAKy6pMIbokn-RLnAYHHvgEkF0MLX0cL1u1hsEBzPdyh5TT1ZRc_gLgDn2WkaAhyrEALw_wcB` and establishes a connection to the SQL server.
 
 <p align="center">
-  <img src="petlebi.png" alt="Petlebi Logo" width="200"/>
-  <img src="database.png" alt="Second Image" width="200"/>
+  <img src="petlebi.png" alt="Petlebi Logo" width="400"/>
+  <img src="database.png" alt="Second Image" width="400"/>
 </p>
 
 ## Table of Contents
