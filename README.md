@@ -1,5 +1,5 @@
 # Petlebi Web Scraping Project
-Welcome to the **Petlebi Web Scraping Project**! This project allows you to gather animal product information from the Petlebi website using effective web scraping techniques.
+Welcome to the **Petlebi Web Scraping Project**! This project allows you to gather animal product information from the Petlebi website using effective web scraping techniques. Program searching all products on https://www.petlebi.com/?gad_source=1&gclid=Cj0KCQjwveK4BhD4ARIsAKy6pMIbokn-RLnAYHHvgEkF0MLX0cL1u1hsEBzPdyh5TT1ZRc_gLgDn2WkaAhyrEALw_wcB and connect to the SQL server.
 
 ## Table of Contents
 - [Project Files](#project-files)
