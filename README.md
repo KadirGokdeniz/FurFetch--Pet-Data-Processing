@@ -86,8 +86,22 @@ python main.py --host localhost --port 3306 --user root --password mypassword
 python async_main.py --pages 50 --concurrency 5
 ```
 ## 📊 Database Schema
-- The database schema includes a single table named petlebi with the following structure:
-ColumnTypeDescriptionidINTPrimary key, auto-incrementproduct_urlVARCHAR(255)URL of the product pagenameVARCHAR(255)Product namebarcodeVARCHAR(255)Product barcodepriceDECIMAL(10,2)Product pricestockVARCHAR(255)Stock statusimageVARCHAR(255)URL to product imagedescriptionTEXTProduct descriptionskuVARCHAR(255)Stock keeping unitcategoryVARCHAR(255)Product categorybrandVARCHAR(255)Product brand
+
+The database schema includes a single table named `petlebi` with the following structure:
+
+| Column      | Type          | Description                |
+|-------------|---------------|----------------------------|
+| id          | INT           | Primary key, auto-increment|
+| product_url | VARCHAR(255)  | URL of the product page    |
+| name        | VARCHAR(255)  | Product name               |
+| barcode     | VARCHAR(255)  | Product barcode            |
+| price       | DECIMAL(10,2) | Product price              |
+| stock       | VARCHAR(255)  | Stock status               |
+| image       | VARCHAR(255)  | URL to product image       |
+| description | TEXT          | Product description        |
+| sku         | VARCHAR(255)  | Stock keeping unit         |
+| category    | VARCHAR(255)  | Product category           |
+| brand       | VARCHAR(255)  | Product brand              |
 ## 🧩 Architecture
 - The project follows a modular architecture with clear separation of concerns:
 
