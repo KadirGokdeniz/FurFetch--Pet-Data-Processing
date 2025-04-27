@@ -1,8 +1,8 @@
 # Petlebi Web Scraping & Database Project
 
 <p align="center">
-  <img src="representative_images/database.png" alt="Database" width="200"/>
-  <img src="representative_images/petlebi.png" alt="Petlebi Logo" width="200"/>
+  <img src="representative_images/database.png" alt="Database"/>
+  <img src="representative_images/petlebi.png" alt="Petlebi Logo"/>
 </p>
 
 ## 📝 Overview
