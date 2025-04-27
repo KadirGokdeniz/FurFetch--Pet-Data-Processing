@@ -112,6 +112,12 @@ The database schema includes a single table named `petlebi` with the following s
 - Logger: Tracks system activity and errors
 - Main Program: Orchestrates the overall process flow
 
+## 🔍 Planned Improvements
+This project is under active development. Upcoming features include:
+- Robots.txt compliance implementation
+- Increased unit test coverage
+- Docker containerization support
+
 ## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
